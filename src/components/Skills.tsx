@@ -14,7 +14,7 @@ const Skills = () => {
             className="border border-gray-300 rounded-lg bg-stone-100 p-6 shadow-sm h-full flex flex-col justify-content"
           >
             <h3 className="text-lg font-semibold text-gray-900 mb-3">{item.title}</h3>
-            <p className="text-gray-700 text-sm leading-relaxed">{item.content}</p>
+            <div className="text-gray-700 text-sm leading-relaxed">{item.content}</div>
           </div>
         ))}
       </div>

@@ -1,4 +1,5 @@
 import profileImage from '../assets/profile_image.png';
+import githubIcon from '../assets/github-mark.png'
 
 const Profile = () => {
     return (
@@ -8,7 +9,7 @@ const Profile = () => {
             <img
               src={profileImage}
               alt="プロフィール画像"
-              className="w-48 h-48 rounded-full object-contain mt-5 mr-4"
+              className="w-48 max-w-none aspect-square rounded-full object-cover mt-5 mr-4"
             />
             <div className="sm:text-left text-center pl-2">
               <h3 className="text-2xl font-semibold">渡辺 江里子</h3>
@@ -24,7 +25,17 @@ const Profile = () => {
                 退職後は本格的にフロントエンドを中心に独学での学習を開始。
                 直近では業務委託として、某SIer企業の開発支援業務を担当しておりました。<br />
                 <br />
-                将来的には、これまでの業務経験や英語力、そしてエンジニアとしての技術を活かし、グローバルな舞台で存在感のある活躍を目指しています。              </p>
+                将来的には、これまでの業務経験や英語力、そしてエンジニアとしての技術を活かし、グローバルな舞台で存在感のある活躍を目指しています。
+              </p>
+              <div className="mt-5 text-right ">
+                <a href="https://github.com/erinkow/my_portfolio">
+                    <img
+                        src={githubIcon}
+                        alt="GitHubアイコン"
+                        className="inline-block w-10 h-10 filter brightness-75"
+                    />
+                </a>
+              </div>
             </div>
           </div>
         </section>
