@@ -1,5 +1,4 @@
 import profileImage from '../assets/profile_image.png';
-import githubIcon from '../assets/github-mark.png'
 
 const Profile = () => {
     return (
@@ -27,15 +26,6 @@ const Profile = () => {
                 <br />
                 将来的には、これまでの業務経験や英語力、そしてエンジニアとしての技術を活かし、グローバルな舞台で存在感のある活躍を目指しています。
               </p>
-              <div className="mt-5 text-right ">
-                <a href="https://github.com/erinkow/my_portfolio">
-                    <img
-                        src={githubIcon}
-                        alt="GitHubアイコン"
-                        className="inline-block w-10 h-10 filter brightness-75"
-                    />
-                </a>
-              </div>
             </div>
           </div>
         </section>
