@@ -17,7 +17,7 @@ const skillsItems = [
           Contrast Securityでは、営業チームの一員としてウェビナーセッションのプレゼン企画、登壇の経験があります。社内リード向けの限定プライベートウェビナーの他に、以下のような外部オンラインセミナーにも登壇しています：
         </div>
         <ul className="list-disc list-inside text-gray-600 space-y-1 text-sm">
-          <li><strong>2021年5月：</strong>ナノオプトメディア（オンラインセミナー）</li>
+          <li><strong>2021年5月：</strong>ナノオプトメディア オンラインセミナー</li>
           <li><strong>2022年5月：</strong>「週刊BCN」主催オンラインセミナー</li>
           <li><strong>2022年10月：</strong>日経クロステック EXPO 2022 オンラインセミナー</li>
         </ul>
